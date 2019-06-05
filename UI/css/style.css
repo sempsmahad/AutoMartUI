@@ -1,0 +1,149 @@
+body{   
+    font: 15px/1.5 Helvetica,Arial,san-serif;
+    margin: 0;    
+    padding-bottom: 60px;
+    background-color: #EDE7F6;    
+}
+.container{
+    width: 95%;
+    margin:auto;
+    overflow: hidden;  
+}
+header{
+    /* top: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden; */
+    background: #311B92;
+    color: white;
+    padding-top: 8px;
+    min-height: 50px;
+    border-bottom: #42A5F5 3px solid;
+}
+.first-sect{
+    width: 100%;
+    overflow:auto; 
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{ 
+    float: left;
+    display: inline;    
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    /* font-family: fantasy;   */
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top:10px;  
+}
+header .current a{
+    color: #B388FF;
+    font-weight: bold;
+}
+header a:hover{
+    color: #B39DDB;
+    font-weight: bold;
+}
+.car{  
+        background-color: white;
+        width: 50%;
+        border: 2px solid #673AB7;
+        padding: 15px;
+        margin: 10px;
+    
+}
+.cars{   
+        width: 100%;
+        min-width: 211px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;       
+        padding: 10px;
+      }
+
+
+footer{
+    position:fixed;
+    bottom:0;
+    color: white;
+    width: 100%;
+    background-color:#311B92;
+    margin-top: 20px;
+    text-align: center;
+   
+  
+}
+
+.required{
+    color:red;
+    font-weight:normal;
+}
+.topBs{
+    margin-top: 10px;
+    color: white;
+    background-color: #311B92;
+    padding: 5px;
+    border: 0px solid #311B92;    
+}
+.topBs #sell{
+    float: right;
+} 
+.topBs #filter{
+    float: left;
+} 
+.topBs #sort{
+    float: center; 
+} 
+
+@media(max-width:1068px){
+   header #branding,
+   header nav,
+   header nav li{
+       float: none;
+       text-align: center;
+       width: 100%;
+   }
+   header{
+       padding-bottom: 20px;
+   }
+   .cars{   
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;       
+    padding: 10px;
+  }
+
+}
+@media(max-width:500px){
+    header #branding,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    .cars{   
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;       
+        padding: 10px;
+      }
+}
