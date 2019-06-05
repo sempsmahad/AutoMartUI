@@ -12,3 +12,13 @@ Auto Mart is an online marketplace for automobiles of diverse makes, model or bo
    3. [Post car ad](https://sempsmahad.github.io/AutoMartUI/UI/sell.html)
    4. [User Profile](https://sempsmahad.github.io/AutoMartUI/UI/profile.html)  
    5. [Admin home ](https://sempsmahad.github.io/AutoMartUI/UI/admin.html)
+
+# Features
+ - Users can view cars for sale.
+ - Users can login or signup.
+ - Users can post a car for sale
+ - Users can update the price of any of their posted ads.
+ - Users can update the price of any of their orders.
+ - Users can flag a car advert as fraudulent.
+ - Users can any of their car ads as sold.
+ - Users can a specific car advert from the list of posted cars.
