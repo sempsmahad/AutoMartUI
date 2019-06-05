@@ -9,9 +9,6 @@ Auto Mart is an online marketplace for automobiles of diverse makes, model or bo
 
    1. [Login Form](https://sempsmahad.github.io/AutoMartUI/UI/signIn.html)
    2. [Sign up Form](https://sempsmahad.github.io/AutoMartUI/UI/signUp.html)
-   3. [Post car ad](https://bozicschucky.github.io/AndelaWeekOne/post.html)
-   4. [User Profile](https://bozicschucky.github.io/AndelaWeekOne/profile.html)
-   5. [Post Answer ](https://bozicschucky.github.io/AndelaWeekOne/post_answer.html)
-   6. [Accept Answer ](https://bozicschucky.github.io/AndelaWeekOne/accept_answer.html)
-   7. [Delete Answer ](https://bozicschucky.github.io/AndelaWeekOne/delete.html)
-   8. [Admin home ](https://sempsmahad.github.io/AutoMartUI/UI/admin.html)
+   3. [Post car ad](https://sempsmahad.github.io/AutoMartUI/UI/sell.html)
+   4. [User Profile](https://sempsmahad.github.io/AutoMartUI/UI/profile.html)  
+   5. [Admin home ](https://sempsmahad.github.io/AutoMartUI/UI/admin.html)
