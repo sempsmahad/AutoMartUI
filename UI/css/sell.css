@@ -1,0 +1,198 @@
+body{   
+    font: 15px/1.5 Helvetica,Arial,san-serif;
+    margin: 0;    
+    padding-bottom: 60px;
+    background-color: #EDE7F6;
+}
+.container{
+    width: 95%;
+    margin:auto;
+    overflow: hidden;  
+}
+
+header{ 
+    background: #311B92;
+    color: white;
+    padding-top: 8px;
+    min-height: 50px;
+    border-bottom: #42A5F5 3px solid;
+}
+.first-sect{
+    width: 100%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{ 
+    float: left;
+    display: block;    
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    /* font-family: fantasy;   */
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top:10px;  
+}
+header .current a{
+    color: #B388FF;
+    font-weight: bold;
+}
+header a:hover{
+    color: #B39DDB;
+    font-weight: bold;
+}
+
+.form-style-3 {
+  margin: 0 auto;
+  /* width:400px; */
+}
+
+.form-style-3 {
+  max-width: 800px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-style-3 label > span {
+  float: left;
+  width: 100px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 fieldset {
+  max-width: 800px;
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #d1c4e9;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.form-style-3 textarea {
+  width: 250px;
+  height: 100px;
+}
+.form-style-3 input[type="text"],
+.form-style-3 input[type="date"],
+.form-style-3 input[type="datetime"],
+.form-style-3 input[type="number"],
+.form-style-3 input[type="search"],
+.form-style-3 input[type="time"],
+.form-style-3 input[type="url"],
+.form-style-3 input[type="email"],
+.form-style-3 select,
+.form-style-3 textarea {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border: 1px solid #b39ddb;
+  outline: none;
+  color: #000000;
+  padding: 5px 8px 5px 8px;
+  background: #f1f1f1;
+  width: 80%;
+}
+.form-style-3 input[type="text"]:focus,
+.form-style-3 input[type="date"]:focus,
+.form-style-3 input[type="datetime"]:focus,
+.form-style-3 input[type="number"]:focus,
+.form-style-3 input[type="search"]:focus,
+.form-style-3 input[type="time"]:focus,
+.form-style-3 input[type="url"]:focus,
+.form-style-3 input[type="email"]:focus,
+.form-style-3 select:focus,
+.form-style-3 textarea:focus {
+  background-color: #ddd;
+  outline: 1px solid #673ab7;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    color: white;
+    width: 100%;
+    background-color:#311B92;
+    margin-top: 20px;
+    text-align: center;
+   
+  
+}
+
+button {
+  background-color: #311b92;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.topBs{
+    margin-top: 10px;
+    color: white;
+    background-color: #311B92;
+    padding: 5px;
+    border: 0px solid #311B92;    
+}
+.topBs #sell{
+    float: right;
+} 
+.topBs #filter{
+    float: left;
+} 
+.topBs #sort{
+    float: center; 
+} 
+@media(max-width:999px){
+   header #branding,
+   header nav,
+   header nav li{
+       float: none;
+       text-align: center;
+       width: 100%;
+   }
+   header{
+       padding-bottom: 20px;
+   }
+   .cars{   
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;       
+    padding: 10px;
+  }
+
+}
+@media(max-width:500px){
+    header #branding,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    .cars{   
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 10px;       
+        padding: 10px;
+      }
+}
